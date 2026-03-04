@@ -1,7 +1,7 @@
 {
+ "homepage": "https://panasamahesh.github.io/MaheshEventWebsite",
   "name": "weddingplanning",
   "version": "0.1.0",
-  "homepage": "https://panasamahesh.github.io/weddingplanning",
   "private": true,
   "dependencies": {
     "@fontsource/great-vibes": "^5.2.8",
