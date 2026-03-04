@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MaheshEventWebsite/static/css/main.edea679d.css",
-    "main.js": "/MaheshEventWebsite/static/js/main.9ceeec29.js",
+    "main.js": "/MaheshEventWebsite/static/js/main.e83ea09f.js",
     "static/js/453.40781ef1.chunk.js": "/MaheshEventWebsite/static/js/453.40781ef1.chunk.js",
     "static/media/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg": "/MaheshEventWebsite/static/media/nainoa-shizuru-NcdG9mK3PBY-unsplash.061b9eb6a6bb0466f817.jpg",
     "static/media/lee-blanchflower-1dW1vEJLlCQ-unsplash.jpg": "/MaheshEventWebsite/static/media/lee-blanchflower-1dW1vEJLlCQ-unsplash.da2927e0948f41d02b13.jpg",
@@ -35,11 +35,11 @@
     "static/media/great-vibes-greek-ext-400-normal.woff": "/MaheshEventWebsite/static/media/great-vibes-greek-ext-400-normal.452b2fdf08fb5a476c65.woff",
     "index.html": "/MaheshEventWebsite/index.html",
     "main.edea679d.css.map": "/MaheshEventWebsite/static/css/main.edea679d.css.map",
-    "main.9ceeec29.js.map": "/MaheshEventWebsite/static/js/main.9ceeec29.js.map",
+    "main.e83ea09f.js.map": "/MaheshEventWebsite/static/js/main.e83ea09f.js.map",
     "453.40781ef1.chunk.js.map": "/MaheshEventWebsite/static/js/453.40781ef1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.edea679d.css",
-    "static/js/main.9ceeec29.js"
+    "static/js/main.e83ea09f.js"
   ]
 }
