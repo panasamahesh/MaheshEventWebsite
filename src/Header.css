@@ -1,0 +1,91 @@
+/* ================= HEADER ================= */
+
+.header {
+  min-height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #02123f;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-bar {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ff4d6d;
+}
+
+/* ================= NAVIGATION ================= */
+
+.buttonsheader {
+  display: flex;
+  gap: 20px;
+}
+
+.buttonsheader a {
+  text-decoration: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.buttonsheader a:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+
+.buttonsheader a.active {
+  background: #ff4d6d;
+  color: white;
+}
+
+/* ================= MENU ICON ================= */
+
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .buttonsheader {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: #02123f;
+    flex-direction: column;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    gap: 10px;
+  }
+
+  .buttonsheader.active {
+    display: flex;
+  }
+
+  .buttonsheader a {
+    padding: 10px;
+    border-radius: 6px;
+  }
+
+  .buttonsheader a:hover {
+    background: #ff4d6d;
+    color: white;
+  }
+}

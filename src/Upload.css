@@ -1,0 +1,90 @@
+.upload-container {
+  text-align: center;
+  padding: 40px;
+  background: #fff8f0;
+  min-height: 100vh;
+}
+
+.upload-title {
+  font-size: 32px;
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+/* TEXT INPUT */
+.event-input {
+  padding: 12px;
+  width: 280px;
+  border: 2px solid #d4af37;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* UPLOAD BOX */
+.upload-box {
+  display: inline-block;
+  padding: 30px;
+  border: 2px dashed #d4af37;
+  border-radius: 15px;
+  background: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.upload-box:hover {
+  background: #fff3cd;
+}
+
+.upload-box input {
+  display: none;
+}
+
+/* GRID */
+.preview-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* SAME SIZE IMAGE CARD */
+.preview-card {
+  position: relative;
+  width: 100%;
+  height: 250px;   /* FIXED HEIGHT */
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+/* IMAGE SAME SIZE */
+.preview-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* 🔥 Makes all images same size */
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.preview-card img:hover {
+  transform: scale(1.05);
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}

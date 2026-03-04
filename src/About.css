@@ -1,0 +1,104 @@
+/* ================= ABOUT SECTION ================= */
+
+.about{
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;   /* changed from fixed 90vh */
+  padding: 40px 20px;
+}
+/* ================= MAIN CONTAINER ================= */
+.about-aside1{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;        /* important for responsiveness */
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* ================= IMAGE ================= */
+
+.about-image{
+  flex: 1 1 300px;        /* flexible width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo{
+  width: 100%;
+  max-width: 300px;
+  height: auto;           /* remove fixed height */
+  object-fit: cover;
+  box-shadow: 2px 5px 6px black;
+  border-radius: 10px;
+}
+
+/* ================= TEXT CONTAINER ================= */
+
+.about-about{
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* ================= HEADER ================= */
+
+.aboutheader{
+  font-size: clamp(28px, 5vw, 45px);
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  text-align: center;
+  word-spacing: normal;   /* removed -30px (breaking layout) */
+}
+
+/* ================= SECTION STRUCTURE ================= */
+
+.about-section1,
+.about-section2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Paragraph Styling */
+.about-section1 section:nth-child(2),
+.about-section2 section:nth-child(2),
+.whatwedo{
+  font-family: cursive;
+  font-size: clamp(13px, 2vw, 16px);
+  text-indent: 1rem;
+  line-height: 1.6;
+}
+
+/* First Letter Styling */
+.about-section1 section:nth-child(2)::first-letter{
+  font-size: 24px; 
+  color: red;
+  font-weight: 600;
+}
+
+/* ================= MOBILE DESIGN ================= */
+
+@media (max-width: 768px){
+
+  .about-aside1{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-about{
+    padding: 10px;
+  }
+
+  .photo{
+    max-width: 250px;
+  }
+
+}
